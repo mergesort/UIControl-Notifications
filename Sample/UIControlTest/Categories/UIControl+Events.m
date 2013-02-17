@@ -1,5 +1,5 @@
 //
-//  UIControl+Input.m
+//  UIControl+Events.m
 //  UIControlTest
 //
 //  Created by Joseph Fabisevich on 2/16/13.
@@ -43,7 +43,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 #pragma mark - UIControl
 
-@implementation UIControl (Input)
+@implementation UIControl (Events)
 
 static char *eventWrapperKey;
 

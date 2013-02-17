@@ -1,12 +1,12 @@
 //
-//  UIControl+Input.m
+//  UIControl+Events.m
 //  UIControlTest
 //
 //  Created by Joseph Fabisevich on 2/16/13.
 //  Copyright (c) 2013 mergesort. All rights reserved.
 //
 
-#import "UIControl+Input.h"
+#import "UIControl+Events.h"
 #import <objc/runtime.h>
 
 
@@ -43,7 +43,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 #pragma mark - UIControl
 
-@implementation UIControl (Input)
+@implementation UIControl (Events)
 
 static char *eventWrapperKey;
 

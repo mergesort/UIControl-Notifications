@@ -1,5 +1,5 @@
 //
-//  UIControl+Input.h
+//  UIControl+Events.h
 //  UIControlTest
 //
 //  Created by Joseph Fabisevich on 2/16/13.
@@ -10,7 +10,7 @@
 
 typedef void(^UIControlEventHandler)(id sender, UIEvent *event);
 
-@interface UIControl (Input)
+@interface UIControl (Events)
 
 - (void)addBlock:(UIControlEventHandler)handler forControlEvent:(UIControlEvents)controlEvent;
 - (void)removeBlocksForControlEvent:(UIControlEvents)controlEvent;

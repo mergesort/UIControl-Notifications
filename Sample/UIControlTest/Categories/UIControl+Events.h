@@ -1,5 +1,5 @@
 //
-//  UIControl+Input.h
+//  UIControl+Events.h
 //  UIControlTest
 //
 //  Created by Joseph Fabisevich on 2/16/13.
