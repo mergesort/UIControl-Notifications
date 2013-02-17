@@ -79,12 +79,11 @@ static char *eventWrapperKey;
 
 - (void)removeBlocksForControlEvent:(UIControlEvents)controlEvent
 {
-    __block __weak UIControl *weakSelf = self;
     [[self eventWrappers] enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
         UIControlEventWrapper *wrapper = obj;
         if (wrapper.controlEvent == controlEvent)
         {
-            [weakSelf removeTarget:wrapper action:NULL forControlEvents:controlEvent];
+            [self removeTarget:wrapper action:NULL forControlEvents:controlEvent];
         }
     }];
 }
