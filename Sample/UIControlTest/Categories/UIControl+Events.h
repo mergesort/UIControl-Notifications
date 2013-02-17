@@ -10,7 +10,7 @@
 
 typedef void(^UIControlEventHandler)(id sender, UIEvent *event);
 
-@interface UIControl (Input)
+@interface UIControl (Events)
 
 - (void)addBlock:(UIControlEventHandler)handler forControlEvent:(UIControlEvents)controlEvent;
 - (void)removeBlocksForControlEvent:(UIControlEvents)controlEvent;

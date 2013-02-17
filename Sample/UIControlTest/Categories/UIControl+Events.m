@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 mergesort. All rights reserved.
 //
 
-#import "UIControl+Input.h"
+#import "UIControl+Events.h"
 #import <objc/runtime.h>
 
 

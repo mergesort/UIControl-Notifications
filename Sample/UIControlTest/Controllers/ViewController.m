@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "UIControl+Input.h"
+#import "UIControl+Events.h"
 #import "TapCounter.h"
 
 
@@ -64,9 +64,10 @@
     [_someButton setTitle:@"Tap that :)" forState:UIControlStateNormal];
     [self.view addSubview:_someButton];
 
-    [_someButton addBlock:^(id sender, UIEvent *event) {
-        NSLog(@"I've been tapped");
-    } forControlEvent:UIControlEventTouchUpInside];
+//    [_someButton addBlock:^(id sender, UIEvent *event) {
+//        NSLog(@"I've been tapped");
+//    } forControlEvent:UIControlEventTouchUpInside];
+
     [_someButton addNotificationNamed:kNotificationName parameters:@{kNotificationEvent_key : kNotificationEvent_value} forControlEvents:UIControlEventTouchUpInside];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(tapOccurred:) name:kNotificationName object:nil];
 }

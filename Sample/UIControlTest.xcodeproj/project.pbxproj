@@ -14,7 +14,7 @@
 		B7D1CFAF16CF55820068F05E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D1CFAE16CF55820068F05E /* main.m */; };
 		B7D1CFB316CF55820068F05E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D1CFB216CF55820068F05E /* AppDelegate.m */; };
 		B7D1CFBF16CF55820068F05E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7D1CFBD16CF55820068F05E /* ViewController.xib */; };
-		B7D1D13316D151D80068F05E /* UIControl+Input.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D1D12816D151D80068F05E /* UIControl+Input.m */; };
+		B7D1D13316D151D80068F05E /* UIControl+Events.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D1D12816D151D80068F05E /* UIControl+Events.m */; };
 		B7D1D13416D151D80068F05E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D1D12B16D151D80068F05E /* ViewController.m */; };
 		B7D1D13516D151D80068F05E /* TapCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D1D12E16D151D80068F05E /* TapCounter.m */; };
 		B7D1D13616D151D80068F05E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7D1D13016D151D80068F05E /* Default-568h@2x.png */; };
@@ -37,8 +37,8 @@
 		B7D1CFB616CF55820068F05E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		B7D1CFB816CF55820068F05E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		B7D1CFBE16CF55820068F05E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
-		B7D1D12716D151D80068F05E /* UIControl+Input.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+Input.h"; sourceTree = "<group>"; };
-		B7D1D12816D151D80068F05E /* UIControl+Input.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+Input.m"; sourceTree = "<group>"; };
+		B7D1D12716D151D80068F05E /* UIControl+Events.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+Events.h"; sourceTree = "<group>"; };
+		B7D1D12816D151D80068F05E /* UIControl+Events.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+Events.m"; sourceTree = "<group>"; };
 		B7D1D12A16D151D80068F05E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B7D1D12B16D151D80068F05E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B7D1D12D16D151D80068F05E /* TapCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapCounter.h; sourceTree = "<group>"; };
@@ -122,8 +122,8 @@
 		B7D1D12616D151D80068F05E /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				B7D1D12716D151D80068F05E /* UIControl+Input.h */,
-				B7D1D12816D151D80068F05E /* UIControl+Input.m */,
+				B7D1D12716D151D80068F05E /* UIControl+Events.h */,
+				B7D1D12816D151D80068F05E /* UIControl+Events.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -224,7 +224,7 @@
 			files = (
 				B7D1CFAF16CF55820068F05E /* main.m in Sources */,
 				B7D1CFB316CF55820068F05E /* AppDelegate.m in Sources */,
-				B7D1D13316D151D80068F05E /* UIControl+Input.m in Sources */,
+				B7D1D13316D151D80068F05E /* UIControl+Events.m in Sources */,
 				B7D1D13416D151D80068F05E /* ViewController.m in Sources */,
 				B7D1D13516D151D80068F05E /* TapCounter.m in Sources */,
 			);
