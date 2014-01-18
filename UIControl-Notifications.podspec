@@ -8,7 +8,6 @@ Pod::Spec.new do |s|
   s.source   = { :git => 'https://github.com/mergesort/UIControl-Notifications.git', :tag => '1.0' }
   s.license = { :type => 'Apache 2.0', :file => 'LICENSE' }
   s.social_media_url = 'https://twitter.com/mergesort'
-  s.description = 'Make your UIControls respond to notifications and blocks instead of the old fashioned target+selector approach'
   s.requires_arc = true
   s.source_files = '*.{h,m}'
 end
