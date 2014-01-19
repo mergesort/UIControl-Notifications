@@ -67,7 +67,7 @@ static char *eventWrapperKey;
 ////////////////////////////////////////////////////////////////////////////////
 #pragma mark - Public methods
 
-- (void)addBlock:(UIControlEventHandler)handler forControlEvent:(UIControlEvents)controlEvent
+- (void)addBlock:(UIControlEventHandler)handler forControlEvents:(UIControlEvents)controlEvent
 {
     UIControlEventWrapper *wrapper = [[UIControlEventWrapper alloc] init];
     wrapper.controlEvent = controlEvent;
