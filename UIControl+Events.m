@@ -100,7 +100,7 @@ static char *eventWrapperKey;
     
     [self addBlock:^(id sender, UIEvent *event) {
         [sender performSelector:@selector(postControlEvent:) withObject:payload];
-    } forControlEvent:controlEvents];
+    } forControlEvents:controlEvents];
 }
 
 - (void)removeNotificationNamed:(NSString *)notification forControlEvents:(UIControlEvents)controlEvents
